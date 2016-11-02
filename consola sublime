@@ -1,0 +1,7 @@
+//Codigo para Windows
+{
+  "cmd": ["g++ -Wall ${file_name} -o ${file_base_name} && ${file_base_name}.exe"],
+  "working_dir": "${file_path}",
+  "shell": true
+}
+
